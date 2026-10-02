@@ -178,7 +178,7 @@ div[role="radiogroup"] label{
 # ─── LOAD & TRAIN (cached) ─────────────────────────────────
 @st.cache_data
 def load_and_train():
-    df_raw = pd.read_csv("Agriculture_price_dataset.csv")
+    df_raw = pd.read_csv("sample_dataset.csv")
 
     df = df_raw.rename(columns={
         'STATE'         : 'State',
