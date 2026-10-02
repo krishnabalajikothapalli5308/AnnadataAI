@@ -3,8 +3,4 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-<<<<<<< HEAD
 streamlit
-=======
-streamlit
->>>>>>> e88ae77645cb139c7ca2bea2539e056d487039f8
